@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5E3F8024A5872F00D2085E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3F7F24A5872F00D2085E /* AppDelegate.swift */; };
+		BD5E3F8224A5872F00D2085E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3F8124A5872F00D2085E /* ViewController.swift */; };
+		BD5E3F8424A5873200D2085E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5E3F8324A5873200D2085E /* Assets.xcassets */; };
+		BD5E3F8724A5873200D2085E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5E3F8524A5873200D2085E /* Main.storyboard */; };
+		BD5E3F9324A5873200D2085E /* SwiftToModelForMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3F9224A5873200D2085E /* SwiftToModelForMacTests.swift */; };
+		BD5E3F9E24A5873200D2085E /* SwiftToModelForMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3F9D24A5873200D2085E /* SwiftToModelForMacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD5E3F8F24A5873200D2085E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5E3F7424A5872F00D2085E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5E3F7B24A5872F00D2085E;
+			remoteInfo = SwiftToModelForMac;
+		};
+		BD5E3F9A24A5873200D2085E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5E3F7424A5872F00D2085E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5E3F7B24A5872F00D2085E;
+			remoteInfo = SwiftToModelForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD5E3F7C24A5872F00D2085E /* SwiftToModelForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftToModelForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5E3F7F24A5872F00D2085E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD5E3F8124A5872F00D2085E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD5E3F8324A5873200D2085E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD5E3F8624A5873200D2085E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD5E3F8824A5873200D2085E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5E3F8924A5873200D2085E /* SwiftToModelForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftToModelForMac.entitlements; sourceTree = "<group>"; };
+		BD5E3F8E24A5873200D2085E /* SwiftToModelForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToModelForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5E3F9224A5873200D2085E /* SwiftToModelForMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToModelForMacTests.swift; sourceTree = "<group>"; };
+		BD5E3F9424A5873200D2085E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5E3F9924A5873200D2085E /* SwiftToModelForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToModelForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5E3F9D24A5873200D2085E /* SwiftToModelForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToModelForMacUITests.swift; sourceTree = "<group>"; };
+		BD5E3F9F24A5873200D2085E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5E3F7924A5872F00D2085E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5E3F8B24A5873200D2085E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5E3F9624A5873200D2085E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5E3F7324A5872F00D2085E = {
+			isa = PBXGroup;
+			children = (
+				BD5E3F7E24A5872F00D2085E /* SwiftToModelForMac */,
+				BD5E3F9124A5873200D2085E /* SwiftToModelForMacTests */,
+				BD5E3F9C24A5873200D2085E /* SwiftToModelForMacUITests */,
+				BD5E3F7D24A5872F00D2085E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5E3F7D24A5872F00D2085E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E3F7C24A5872F00D2085E /* SwiftToModelForMac.app */,
+				BD5E3F8E24A5873200D2085E /* SwiftToModelForMacTests.xctest */,
+				BD5E3F9924A5873200D2085E /* SwiftToModelForMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5E3F7E24A5872F00D2085E /* SwiftToModelForMac */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E3F7F24A5872F00D2085E /* AppDelegate.swift */,
+				BD5E3F8124A5872F00D2085E /* ViewController.swift */,
+				BD5E3F8324A5873200D2085E /* Assets.xcassets */,
+				BD5E3F8524A5873200D2085E /* Main.storyboard */,
+				BD5E3F8824A5873200D2085E /* Info.plist */,
+				BD5E3F8924A5873200D2085E /* SwiftToModelForMac.entitlements */,
+			);
+			path = SwiftToModelForMac;
+			sourceTree = "<group>";
+		};
+		BD5E3F9124A5873200D2085E /* SwiftToModelForMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E3F9224A5873200D2085E /* SwiftToModelForMacTests.swift */,
+				BD5E3F9424A5873200D2085E /* Info.plist */,
+			);
+			path = SwiftToModelForMacTests;
+			sourceTree = "<group>";
+		};
+		BD5E3F9C24A5873200D2085E /* SwiftToModelForMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E3F9D24A5873200D2085E /* SwiftToModelForMacUITests.swift */,
+				BD5E3F9F24A5873200D2085E /* Info.plist */,
+			);
+			path = SwiftToModelForMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5E3F7B24A5872F00D2085E /* SwiftToModelForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5E3FA224A5873200D2085E /* Build configuration list for PBXNativeTarget "SwiftToModelForMac" */;
+			buildPhases = (
+				BD5E3F7824A5872F00D2085E /* Sources */,
+				BD5E3F7924A5872F00D2085E /* Frameworks */,
+				BD5E3F7A24A5872F00D2085E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftToModelForMac;
+			productName = SwiftToModelForMac;
+			productReference = BD5E3F7C24A5872F00D2085E /* SwiftToModelForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5E3F8D24A5873200D2085E /* SwiftToModelForMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5E3FA524A5873200D2085E /* Build configuration list for PBXNativeTarget "SwiftToModelForMacTests" */;
+			buildPhases = (
+				BD5E3F8A24A5873200D2085E /* Sources */,
+				BD5E3F8B24A5873200D2085E /* Frameworks */,
+				BD5E3F8C24A5873200D2085E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5E3F9024A5873200D2085E /* PBXTargetDependency */,
+			);
+			name = SwiftToModelForMacTests;
+			productName = SwiftToModelForMacTests;
+			productReference = BD5E3F8E24A5873200D2085E /* SwiftToModelForMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD5E3F9824A5873200D2085E /* SwiftToModelForMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5E3FA824A5873200D2085E /* Build configuration list for PBXNativeTarget "SwiftToModelForMacUITests" */;
+			buildPhases = (
+				BD5E3F9524A5873200D2085E /* Sources */,
+				BD5E3F9624A5873200D2085E /* Frameworks */,
+				BD5E3F9724A5873200D2085E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5E3F9B24A5873200D2085E /* PBXTargetDependency */,
+			);
+			name = SwiftToModelForMacUITests;
+			productName = SwiftToModelForMacUITests;
+			productReference = BD5E3F9924A5873200D2085E /* SwiftToModelForMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5E3F7424A5872F00D2085E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = JackMa;
+				TargetAttributes = {
+					BD5E3F7B24A5872F00D2085E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BD5E3F8D24A5873200D2085E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BD5E3F7B24A5872F00D2085E;
+					};
+					BD5E3F9824A5873200D2085E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BD5E3F7B24A5872F00D2085E;
+					};
+				};
+			};
+			buildConfigurationList = BD5E3F7724A5872F00D2085E /* Build configuration list for PBXProject "SwiftToModelForMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5E3F7324A5872F00D2085E;
+			productRefGroup = BD5E3F7D24A5872F00D2085E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5E3F7B24A5872F00D2085E /* SwiftToModelForMac */,
+				BD5E3F8D24A5873200D2085E /* SwiftToModelForMacTests */,
+				BD5E3F9824A5873200D2085E /* SwiftToModelForMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5E3F7A24A5872F00D2085E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5E3F8424A5873200D2085E /* Assets.xcassets in Resources */,
+				BD5E3F8724A5873200D2085E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5E3F8C24A5873200D2085E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5E3F9724A5873200D2085E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5E3F7824A5872F00D2085E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5E3F8224A5872F00D2085E /* ViewController.swift in Sources */,
+				BD5E3F8024A5872F00D2085E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5E3F8A24A5873200D2085E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5E3F9324A5873200D2085E /* SwiftToModelForMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5E3F9524A5873200D2085E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5E3F9E24A5873200D2085E /* SwiftToModelForMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD5E3F9024A5873200D2085E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5E3F7B24A5872F00D2085E /* SwiftToModelForMac */;
+			targetProxy = BD5E3F8F24A5873200D2085E /* PBXContainerItemProxy */;
+		};
+		BD5E3F9B24A5873200D2085E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5E3F7B24A5872F00D2085E /* SwiftToModelForMac */;
+			targetProxy = BD5E3F9A24A5873200D2085E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD5E3F8524A5873200D2085E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5E3F8624A5873200D2085E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5E3FA024A5873200D2085E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD5E3FA124A5873200D2085E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BD5E3FA324A5873200D2085E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftToModelForMac/SwiftToModelForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GGWCEJRRYK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SwiftToModelForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackMa.SwiftToModelForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD5E3FA424A5873200D2085E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftToModelForMac/SwiftToModelForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GGWCEJRRYK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SwiftToModelForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackMa.SwiftToModelForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BD5E3FA624A5873200D2085E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GGWCEJRRYK;
+				INFOPLIST_FILE = SwiftToModelForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = JackMa.SwiftToModelForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftToModelForMac.app/Contents/MacOS/SwiftToModelForMac";
+			};
+			name = Debug;
+		};
+		BD5E3FA724A5873200D2085E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GGWCEJRRYK;
+				INFOPLIST_FILE = SwiftToModelForMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = JackMa.SwiftToModelForMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftToModelForMac.app/Contents/MacOS/SwiftToModelForMac";
+			};
+			name = Release;
+		};
+		BD5E3FA924A5873200D2085E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GGWCEJRRYK;
+				INFOPLIST_FILE = SwiftToModelForMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackMa.SwiftToModelForMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftToModelForMac;
+			};
+			name = Debug;
+		};
+		BD5E3FAA24A5873200D2085E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GGWCEJRRYK;
+				INFOPLIST_FILE = SwiftToModelForMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackMa.SwiftToModelForMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftToModelForMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5E3F7724A5872F00D2085E /* Build configuration list for PBXProject "SwiftToModelForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E3FA024A5873200D2085E /* Debug */,
+				BD5E3FA124A5873200D2085E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5E3FA224A5873200D2085E /* Build configuration list for PBXNativeTarget "SwiftToModelForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E3FA324A5873200D2085E /* Debug */,
+				BD5E3FA424A5873200D2085E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5E3FA524A5873200D2085E /* Build configuration list for PBXNativeTarget "SwiftToModelForMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E3FA624A5873200D2085E /* Debug */,
+				BD5E3FA724A5873200D2085E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5E3FA824A5873200D2085E /* Build configuration list for PBXNativeTarget "SwiftToModelForMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E3FA924A5873200D2085E /* Debug */,
+				BD5E3FAA24A5873200D2085E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5E3F7424A5872F00D2085E /* Project object */;
+}
