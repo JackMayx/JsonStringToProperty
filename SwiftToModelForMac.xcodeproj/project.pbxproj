@@ -13,6 +13,9 @@
 		BD5E3F8724A5873200D2085E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5E3F8524A5873200D2085E /* Main.storyboard */; };
 		BD5E3F9324A5873200D2085E /* SwiftToModelForMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3F9224A5873200D2085E /* SwiftToModelForMacTests.swift */; };
 		BD5E3F9E24A5873200D2085E /* SwiftToModelForMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3F9D24A5873200D2085E /* SwiftToModelForMacUITests.swift */; };
+		BD5E3FAC24A5877D00D2085E /* JsonStringToModelProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3FAB24A5877D00D2085E /* JsonStringToModelProperty.swift */; };
+		BD5E3FAE24A58F0A00D2085E /* PropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3FAD24A58F0A00D2085E /* PropertyType.swift */; };
+		BD5E3FB024A5F9E000D2085E /* JMLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3FAF24A5F9E000D2085E /* JMLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		BD5E3F9924A5873200D2085E /* SwiftToModelForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToModelForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5E3F9D24A5873200D2085E /* SwiftToModelForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToModelForMacUITests.swift; sourceTree = "<group>"; };
 		BD5E3F9F24A5873200D2085E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5E3FAB24A5877D00D2085E /* JsonStringToModelProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonStringToModelProperty.swift; sourceTree = "<group>"; };
+		BD5E3FAD24A58F0A00D2085E /* PropertyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyType.swift; sourceTree = "<group>"; };
+		BD5E3FAF24A5F9E000D2085E /* JMLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			children = (
 				BD5E3F7F24A5872F00D2085E /* AppDelegate.swift */,
 				BD5E3F8124A5872F00D2085E /* ViewController.swift */,
+				BD5E3FAB24A5877D00D2085E /* JsonStringToModelProperty.swift */,
+				BD5E3FAD24A58F0A00D2085E /* PropertyType.swift */,
+				BD5E3FAF24A5F9E000D2085E /* JMLog.swift */,
 				BD5E3F8324A5873200D2085E /* Assets.xcassets */,
 				BD5E3F8524A5873200D2085E /* Main.storyboard */,
 				BD5E3F8824A5873200D2085E /* Info.plist */,
@@ -254,7 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5E3FB024A5F9E000D2085E /* JMLog.swift in Sources */,
+				BD5E3FAE24A58F0A00D2085E /* PropertyType.swift in Sources */,
 				BD5E3F8224A5872F00D2085E /* ViewController.swift in Sources */,
+				BD5E3FAC24A5877D00D2085E /* JsonStringToModelProperty.swift in Sources */,
 				BD5E3F8024A5872F00D2085E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
