@@ -1,6 +1,10 @@
 # JsonStringToProperty
 JSONString一键转Model实例模型，妈妈再也不用担心实例属性多而烦恼了~~~~~~~
 
+![image](https://github.com/JackMayx/JsonStringToProperty/blob/master/WechatIMG91.jpeg)
+![image](https://github.com/JackMayx/JsonStringToProperty/blob/master/WechatIMG91.jpeg)
+
+
 
 支持class/struct   支持继承和实现协议
 
